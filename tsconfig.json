@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"strict": true,
+		"outDir": "dist",
+		"declaration": true,
+		"declarationMap": true,
+		"declarationDir": "@types",
+		"typeRoots": ["./node_modules/@types", "./@types"]
+	},
+	"exclude": ["node_modules"],
+	"include": ["src", "./@types/quantize.d.ts"]
+}

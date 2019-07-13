@@ -4,10 +4,10 @@ A script for grabbing the color palette from an image. Uses Javascript and the c
 
 [See a Demo](http://lokeshdhakar.com/projects/color-thief) | [Read more on my blog](http://lokeshdhakar.com/color-thief)
 
-
 ## How to use
 
 ### Get the dominant color from an image
+
 ```js
 var colorThief = new ColorThief();
 colorThief.getColor(sourceImage);
